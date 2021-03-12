@@ -1,0 +1,1 @@
+spring:  mail:    host: smtp-relay.sendinblue.com    port: 587    username: aysonsteven@gmail.com    password: LRfg9KcyJFSjVP53        server:  port: 80
