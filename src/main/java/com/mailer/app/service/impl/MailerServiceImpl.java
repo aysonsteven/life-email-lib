@@ -30,13 +30,9 @@ public class MailerServiceImpl implements MailerService {
 		
 		//build email instance
 		SimpleMailMessage msg = new SimpleMailMessage();
-		msg.setFrom(config.getUsername());
+		msg.setFrom(mail.getSender());
 		msg.setTo(mail.getReceiver());
-//		if(mail.getSubject().isBlank()) {
-//			msg.setSubject("mailer app test From " + mail.getName());
-//		} else {
 		msg.setSubject(mail.getSubject());
-//		}
 		msg.setText(mail.getMessage());
 		
 		mailSender.send(msg);

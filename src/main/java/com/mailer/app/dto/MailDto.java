@@ -11,6 +11,10 @@ public class MailDto {
 	
 	@NotNull
 	@Email
+	private String sender;
+	
+	@NotNull
+	@Email
 	private String receiver;
 	
 	@NotNull
@@ -33,6 +37,16 @@ public class MailDto {
 
 	public void setSubject(String subject) {
 		this.subject = subject;
+	}
+
+
+	public String getSender() {
+		return sender;
+	}
+
+
+	public void setSender(String sender) {
+		this.sender = sender;
 	}
 
 
