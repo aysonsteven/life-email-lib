@@ -1,1 +1,1 @@
-spring:  mail:    host: smtp-relay.sendinblue.com    port: 587    username: projectlifemailer@gmail.com    password: JDQXTB2VC3bfKm5M        server:  port: 80
+spring:  mail:    host: smtp.pepipost.com    port: 587    username: aysonsteven    password: aysonsteven_3ddf3eeaccdb1a2655737123ed9288d8        server:  port: 80
