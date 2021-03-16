@@ -43,7 +43,7 @@ public class MailerServiceImpl implements MailerService {
 		mailSender.setHost(this.config.getHost());
 		mailSender.setPort(this.config.getPort());
 		mailSender.setUsername(this.config.getUsername());
-		mailSender.setPassword(this.config.getPassword());
+		mailSender.setPassword("67126513461E8102AECB6D8848A10804C38B");
 		return mailSender;
 	}
 
